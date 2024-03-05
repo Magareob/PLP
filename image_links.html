@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 10px;
+        }
+        .menu-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .menu-list li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Website!</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our website! Explore the world of technology with us.</p>
+        <a href="https://www.netscribes.com/technology-watch/"><img src="technology.jpg" alt="Technology" width="50%" height="50%"></a>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="https://isha.sadhguru.org/en/wisdom/article/natures-temples"><img src="nature.jpg" alt="Nature 1" width="100%" height="100%"></a>
+            <a href="https://corporate.walmart.com/purpose/sustainability/planet/nature"><img src="Nature_image_1.jpeg" alt="Nature 2" width="100%" height="100%"></a>
+            <a href="https://www.businessfornature.org/sector-actions"><img src="Nature_image_2.jpg" alt="Nature 3" width="100%" height="100%"></a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul class="menu-list">
+            <li><a href="https://example.com/food1"><img src="food.jpg" alt="Food 1" width="50%" height="50%"> Food Item 1</a></li>
+            <li><a href="https://example.com/food2"><img src="Food_image_1.jpg" alt="Food 2" width="50%" height="50%"> African Spider with Ugali</a></li>
+            <li><a href="https://cookpad.com/ke/recipes/15544659-wet-fry-beef-chinsaga-african-spider-plant"><img src="Food_image_2.jpg" alt="Food 3" width="50%" height="50%"> African Spider and Ugali</a></li>
+        </ul>
+    </section>
+</body>
+</html>
